@@ -1,0 +1,125 @@
+.caja {
+  padding: 0;
+}
+.navbar {
+  padding: 1em 5em 1em;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+}
+
+/*BANNER STYLE*/
+
+.banner {
+  margin-bottom: 2em;
+  padding-top: 5rem;
+}
+
+#banner-img {
+  z-index: 100;
+  float: left;
+  display: inline-block;
+}
+
+#gif-img {
+  position: relative;
+  float: right;
+  display: block;
+  z-index: 0;
+  float: right;
+  position: bottom;
+}
+
+/*Thumbnails*/
+
+.card {
+  border: none;
+}
+
+.card-empty {
+  height: 0;
+  width: 0;
+}
+
+#card-img, #card-main {
+  padding: 0;
+  border: none;
+  margin-bottom: 1em;
+}
+
+#card-main ul {
+  padding: 0;
+  margin-left: 2em;
+}
+
+.card-body {
+  padding: 0;
+}
+
+h5.card-title {
+  padding-left: 2em;
+  text-decoration: underline;
+}
+
+#thumb {
+  border: 1px solid rgb(196, 191, 191);
+  padding: 0;
+  margin-bottom: 2em;
+  margin-right: 1em;
+}
+
+#thumb-body {
+  padding: 1.5em;
+}
+
+/*NOSOTROS SECCIÓN*/
+
+#titulo {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/*NOTICIAS*/
+
+#titulo {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+#news-img {
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+#foto {
+  margin-bottom: 1em;
+}
+
+h5, h6 {
+  color: rgb(0, 81, 173);
+}
+
+#noticia {
+  margin-bottom: 2em;
+}
+
+/*FOOTER*/
+
+.footer {
+  padding: 2em 3em 2em 10em;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+.contacto {
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+#carta {
+  width: 10px;
+  height: auto;
+}
